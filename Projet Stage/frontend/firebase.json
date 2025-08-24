@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "visiotrack-48142-e7cca",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/SignIn.jsx"
+      }
+    ]
+  }
+}
