@@ -1,0 +1,21 @@
+@"
+*.pt
+*.pth
+*.onnx
+*.weights
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.jpg
+*.png
+*.mp4
+*.avi
+Input/
+uploads/
+build/
+dist/
+.env
+*.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
